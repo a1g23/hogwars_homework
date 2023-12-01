@@ -1,1 +1,9 @@
 body {background-color: #493d99} /*or any color of your choosing*/
+
+.secret {
+    opacity: 0.5;
+}
+
+ul {
+    list-style: none;
+}
