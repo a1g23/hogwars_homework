@@ -9,7 +9,11 @@ ul {
 }
 
 
-table {
-    border: 3px yellow;
+table, th, td {
+    border:1px solid gray;
     margin:auto;
+}
+
+.cabbage {
+    color: chartreuse;
 }

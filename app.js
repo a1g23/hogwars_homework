@@ -186,6 +186,33 @@ $h3.after($h4)
 
 // interestingly, i didnt have to remove just put $h4 after h3?? still the right output
 
+
+
+
+
+// year 6
+//hide function with slow
+// variable to grab all my secrets
+
+const $secrets = $(".secret")
+console.log($secrets)
+
+// chain it together - delay had to go before hide (makes sense)
+$secrets.delay(2000).hide("slow")
+
+//use show to show all the secrets
+$secrets.show("slow")
+
+
+// add a class to my leash li ($liLeash)
+$liLeash.addClass("cabbage")
+
+
+// fix my pets leash and remove the cabbage class
+
+$liLeash.removeClass("cabbage")
+
+
 });
 
 
