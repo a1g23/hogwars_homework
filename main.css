@@ -1,13 +1,19 @@
-body {background-color: #493d99} /*or any color of your choosing*/
+body {background-color: #47ceda} /*or any color of your choosing*/
 
 .secret {
-    opacity: 0.5;
+    opacity: 0.9;
+    color: blue;
 }
 
 ul {
     list-style: none;
+    
 }
 
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
 
 table, th, td {
     border:1px solid gray;

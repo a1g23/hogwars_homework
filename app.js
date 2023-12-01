@@ -213,6 +213,30 @@ $liLeash.addClass("cabbage")
 $liLeash.removeClass("cabbage")
 
 
+//year 7
+
+// Update your class schedule to read 'Fall 2018'
+// target the $h5 and change text to Fall 2018
+
+$h5.text("Fall 2018")
+
+// Celebrate by buying more butter beer! Append a list item with the text 'Butter beer' as the first list item inside your unordered list with the value of trunk
+//target the ul and prepend to it the butter beer li - just going to use the one we already have
+$ulTrunk.prepend($liButterBeer)
+
+
+// Whoops! You broke your trunk when you stood on it while singing karaoke. Get a new storage container for your stuff; replace the unodered list's property of trunk with a new property of chest
+// we want to change the property tied to the ul attribute of storage from trunk to chest
+//target the attribute of the ul
+
+$ulTrunk.attr("storage", "chest")
+
+
+
+// Add some CSS to your page. Feel free to experiment and make this page your own
+
+// Take a screenshot of your page and add it to your homework folder
+
 });
 
 
