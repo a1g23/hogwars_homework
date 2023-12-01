@@ -7,3 +7,9 @@ body {background-color: #493d99} /*or any color of your choosing*/
 ul {
     list-style: none;
 }
+
+
+table {
+    border: 3px yellow;
+    margin:auto;
+}

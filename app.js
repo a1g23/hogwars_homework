@@ -155,6 +155,37 @@ $trFri.append($tdFri.text("Monday"))
 const $tdClassFri = $("<td>")
 $trFri.append($tdClassFri.text("Quidditch practice"))
 
+
+
+// Year 5
+//remove your wand and break it
+
+$h4Wand.remove()
+
+// kill the beer
+
+$liButterBeer.remove()
+
+// new wand in the h4
+
+$h4Wand.text("the new and improved wand")
+$h4.after($h4Wand)
+
+// add color of indigo to the wand in jquery
+
+$h4Wand.css("color", "indigo")
+
+// remove pet Nellie ($h4) from the DOM and then put it after the table - have to take the whole element to move not the class
+
+$h4.remove()
+$table.after($h4)
+
+// remove Nellie again and put back after Gryffindor ($h3)
+
+$h3.after($h4)
+
+// interestingly, i didnt have to remove just put $h4 after h3?? still the right output
+
 });
 
 
