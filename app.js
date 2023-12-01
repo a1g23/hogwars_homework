@@ -81,7 +81,79 @@ const $liBertie = $("<li>")
 $liBertie.text("Bertie Bott's Every Flavor [Jelly] Beans")
 $ulTrunk.append($liBertie)
 
+// make a table
 
+const $table = $("<table>")
+$container.append($table)
+
+// above table add h5
+
+const $h5 = $("<h5>")
+$table.before($h5.text("Spring 2017"))
+
+// add a thread element
+
+const $thead = $("<thead>")
+$table.append($thead)
+
+const $thDay = $("<th>")
+$thead.append($thDay.text("Day"))
+
+const $thClasses = $("<th>")
+$thead.append($thClasses.text("Classes"))
+
+
+// Monday
+const $trMon = $("<tr>")
+$table.append($trMon)
+
+const $tdMon = $("<td>")
+$trMon.append($tdMon.text("Monday"))
+
+const $tdClassMon = $("<td>")
+$trMon.append($tdClassMon.text("Herbology, Divination, History of Magic"))
+
+
+//Tuesday
+const $trTue = $("<tr>")
+$table.append($trTue)
+
+const $tdTue = $("<td>")
+$trTue.append($tdTue.text("Tuesday"))
+
+const $tdClassTue = $("<td>")
+$trTue.append($tdClassTue.text("Charms, Potions"))
+
+
+//Wednesday
+const $trWed = $("<tr>")
+$table.append($trWed)
+
+const $tdWed = $("<td>")
+$trWed.append($tdWed.text("Wednesday"))
+
+const $tdClassWed = $("<td>")
+$trWed.append($tdClassWed.text("Transfiguration"))
+
+//Thursday
+const $trThu = $("<tr>")
+$table.append($trThu)
+
+const $tdThu = $("<td>")
+$trThu.append($tdThu.text("Thursday"))
+
+const $tdClassThu = $("<td>")
+$trThu.append($tdClassThu.text("Defense Against the Dark Arts"))
+
+//Friday
+const $trFri = $("<tr>")
+$table.append($trFri)
+
+const $tdFri = $("<td>")
+$trFri.append($tdFri.text("Monday"))
+
+const $tdClassFri = $("<td>")
+$trFri.append($tdClassFri.text("Quidditch practice"))
 
 });
 
